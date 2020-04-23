@@ -1,0 +1,56 @@
+avrupa sýnýrlarý 50wiki +1 =51
+
+lat 36 ile 70 izlanda ve azerbeycan
+long -20 ile 50 izlanda ve azerbeycan
+
+
+Malta, Cyprus, Russia, Kazakhstan yok, eklendi
+Fazladan Kosovo da bulunuyor
+
+------
+asya sýnýrlarý 50wiki -4 +1Taiwan = 47
+
+lat -1 ile 62  endonezya ve rusya
+long 35 ile 140 türkiye ve japonya
+
+
+Kenya,Somalia,Ethiopia,Djibouti(Cibuti),Eritrea var, silindi
+Egypt, Cyprus, Israel yok, eklendi
+
+Taiwan var, North Korea yok, Doðu Timor yok Turkmenistan yok Tajikistan yok
+
+--------
+
+afrika sýnýrlarý 54 -3 = 51
+lat -32 ile 34 güney afrika ve tunus
+long -15 ile 47 batý sahra ve madagaskar
+
+cape varde, comoros,  gambia, guinea bissau, lesotho, mauritus, seychelles   yok
+france, iraq, israel, jordan, lebanon, saudi arabia, west bank and gaza, wstern sahara var, silindi
+Gambia, Guinea-Bissau, Mauritius, seychelles eklendi
+
+-----
+kuzey amerika 23 ülke
+
+lat 8 ile 70 panama ve alaska
+long -165 ile -55 alaska ve canada
+
+istisna var AND nin bir çok yerde topraðý var onlarý alabilmek için OR ile Country_Region='US' yapýyorum
+Birleþik krallýk, fransa ve hollandanýn bu koordinatlarda topraklarý olduðu için bu üç ülkeyi AND NOT IN ile çýkardým
+
+----
+Güney amerika 12 ülke
+
+lat -39 ile 6.5 argentina ve venezuela
+long -78.5 ile -51 ecuador ve brazil
+
+Fransa çýkarýldý
+
+----
+Okyanusya 14 ülke
+
+lat -41 ile -6 new zealand ve papea new guinea
+long 115 ile 174 australia ve new zealand
+
+bunun bir anlamý olmadýðý için ve ülke sayýsý az olduðu için veri tabanýndan kontrol ederek
+ülkeleri dahil ettim.
